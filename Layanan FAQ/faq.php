@@ -14,14 +14,14 @@
     padding: 1px;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* tambahkan ini untuk spasi antara kiri-kanan */
+    justify-content: space-between; 
     border-bottom: 2px solid #b6e3df;
-    position: fixed; /* Agar header tetap di posisi atas */
-    top: 0; /* Memastikan header di atas halaman */
+    position: fixed; 
+    top: 0; 
     left: 0;
-    width: 100%; /* Agar header memenuhi lebar layar */
-    z-index: 1000; /* Agar header tetap di atas konten lainnya */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Menambahkan shadow agar header lebih menonjol */
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 .container {
     padding: 30px;
     text-align: center;
-    margin-top: 80px; /* Memberikan ruang agar konten tidak tertutup header */
+    margin-top: 80px; 
 }
 
 
@@ -56,14 +56,14 @@ body {
         header img {
             width: 85px;
             height: 50px;
-            margin-left: auto; /* dorong ke kanan */
+            margin-left: auto; 
         }
 
 
         .right-section {
-    width: 600px; /* atau sesuaikan dengan kebutuhan */
+    width: 600px; 
     margin-left: auto;
-    margin-right: 200px; /* jarak dari sisi kanan halaman */
+    margin-right: 200px; 
     text-align: center;
 }
 
@@ -96,28 +96,28 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     list-style: none;
     text-align: left;
-    position: relative; /* Menambahkan posisi relative */
-    user-select: none; /* Menghindari pemilihan teks */
+    position: relative; 
+    user-select: none; 
 }
 
-/* Menambahkan tanda panah segitiga */
+
 .faq-question::after {
     content: "";
     position: absolute;
-    right: 15px; /* Jarak dari sisi kanan */
+    right: 15px; 
     top: 50%;
-    transform: translateY(-50%); /* Menyelaraskan tanda panah di tengah vertikal */
+    transform: translateY(-50%); 
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 8px solid #000; /* Panah mengarah ke atas */
+    border-top: 8px solid #000; 
     transition: transform 0.3s ease;
 }
 
-/* Mengubah panah menjadi ke bawah ketika elemen <details> dibuka */
+
 details[open] .faq-question::after {
-    transform: translateY(-50%) rotate(360deg); /* Memutar panah 180 derajat */
+    transform: translateY(-50%) rotate(360deg); 
     border-top: none;
-    border-bottom: 8px solid #000; /* Panah mengarah ke bawah */
+    border-bottom: 8px solid #000; 
 }
 
 
@@ -210,7 +210,7 @@ details[open] .faq-question::after {
 
         <h3>Pilih topik sesuai pertanyaan anda</h3>
 
-<!-- Baris pertama -->
+
 <div class="topics">
     <div class="topic-container">
         <div class="topic">
@@ -232,7 +232,7 @@ details[open] .faq-question::after {
     </div>
 </div>
 
-<!-- Baris kedua -->
+
 <div class="topics">
     <div class="topic-container">
         <div class="topic">
