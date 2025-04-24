@@ -85,7 +85,7 @@
       margin-top: 45px;
       display: inline-block;
     }
-    
+
     .notif-card a:hover {
       background-color:rgb(69, 112, 117);
     }
@@ -117,11 +117,11 @@
     <div class="mediping">
     <img src="../image/notifikasi.png" alt="logo MedPing">MedPing</div>
   </div>
-    <h3> Status Pembayaran </h3>
+    <h3> Status Pemesanan </h3>
   <div class="notif-card">
-    <p>Menunggu Pembayaran</p>
-    <p>Silahkan lakukan pembayaran agar pesanan anda segera dikirimkan.</p>
-    <a href="../../Melakukan_Pembayaran/php/Pembayaran.php">LANJUT PEMBAYARAN</a>
+    <p>Pesanan Diperjalanan</p>
+    <p>Saat ini pemesanan anda sedang dalam perjalanan menuju alamat anda.</p>
+    <a href="RinciStatusPemesanan.php">Lihat detail  status pemesanan</a>
     
   </div>
   <a href="RincianNotif.php" class="tutup-button">TUTUP</a>
