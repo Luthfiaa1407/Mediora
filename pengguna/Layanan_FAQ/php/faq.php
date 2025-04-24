@@ -20,23 +20,6 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
-        header a {
-            text-decoration: none;
-            color: #000;
-        }
-
-        header a img {
-            width: 17px;
-            height: 17px;
-            margin-left: 25px;
-        }
-
-        header img {
-            width: 85px;
-            height: 50px;
-            margin-left: auto;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-image: url('../image/background.jpg');
@@ -52,6 +35,23 @@
             padding: 30px;
             text-align: center;
             margin-top: 80px;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        header a img {
+            width: 17px;
+            height: 17px;
+            margin-left: 25px;
+        }
+
+        header img {
+            width: 85px;
+            height: 50px;
+            margin-left: auto;
         }
 
         .right-section {
@@ -91,7 +91,6 @@
             position: relative;
             user-select: none;
         }
-
 
         .faq-question::after {
             content: "";
@@ -135,6 +134,7 @@
             flex-direction: column;
             align-items: center;
             width: 100px;
+            transform: none;
         }
 
         .topic-container a {
@@ -179,53 +179,26 @@
 
     <div class="container">
         <div class="right-section">
-            <h2>Pengiriman</h2>
+            <h2>Website</h2>
 
             <div class="faq-box">
                 <details class="faq-item">
-                    <summary class="faq-question">Berapa lama waktu yang dibutuhkan untuk melakukan 
-                    pengiriman pembelanjaan dari Mediora?</summary>
+                    <summary class="faq-question">Apa itu Mediora?</summary>
                     <div class="faq-answer">
-                    Produk akan dikirim maksimal 2 jam setelah pembayaran sukses, sesuai jam operasional apotek (08.00-22.00 WIB). Untuk pesanan yang masuk di luar jam operasional, pengiriman akan dilakukan paling lambat 2 hari kerja (H+2) setelah pembayaran berhasil.
+                        Mediora adalah platform layanan kesehatan online yang menyediakan berbagai produk kesehatan secara mudah dan terpercaya.
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Kenapa pesanan yang dikirim dari apotek belum saya 
-                    terima setelah 1 x 24 jam?</summary>
+                    <summary class="faq-question">Bagaimana cara menggunakan website Mediora?</summary>
                     <div class="faq-answer">
-                    Jika pesanan belum dikirim setelah 1 x 24 jam, Anda dapat menghubingin nomor telpon 072436281289 atau email melalui www.mediora.id atau Mediora@gmail.com
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">Apa yang harus saya lakukan jika setelah melakukan konfirmasi
-                    pesanan sudah diterima status pesanan masih belum selesai?</summary>
-                    <div class="faq-answer">
-                    Jika konfirmasi pesanan diterima sudah dilakukan, tapi status pesanan belum selesai, Anda dapat menghubungi melalui Mediora@gmail.com
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">Apa yang dapat saya lakukan jika tidak bisa menghubungi
-                    nomor apotek?</summary>
-                    <div class="faq-answer">
-                    Jika nomor apotek tidak dapat dihubungi, Anda dapat menghubungi  Melalui Mediora@gmail.com
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">Mengapa pesanan tidak bisa dikirimkan/alamat tidak
-                    ditemukan?</summary>
-                    <div class="faq-answer">
-                    Pesanan yang tidak bisa dikirimkan atau alamt tidak ditemukan dapat dikarenakan lokasi anda diluar jangkauan mediora. Anda dapat memberikan saran keepada kami untuk menjual produk di daerah Anda kepada admin melalui Admed@gmail.com
+                        Anda dapat membuat akun terlebih dahulu, lalu memilih layanan atau produk yang diinginkan dan mengikuti petunjuk pemesanan.
                     </div>
                 </details>
             </div>
 
             <h3>Pilih topik sesuai pertanyaan anda</h3>
 
-            <!-- Baris pertama -->
             <div class="topics">
                 <div class="topic-container">
                     <a href="faq.php">
@@ -253,7 +226,6 @@
                 </div>
             </div>
 
-            <!-- Baris kedua -->
             <div class="topics">
                 <div class="topic-container">
                     <a href="Pembayaran.php">
@@ -272,6 +244,7 @@
                     </a>
                 </div>
             </div>
+
         </div>
     </div>
 </body>

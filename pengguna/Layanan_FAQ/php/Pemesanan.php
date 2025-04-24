@@ -92,7 +92,6 @@
             user-select: none;
         }
 
-
         .faq-question::after {
             content: "";
             position: absolute;
@@ -179,46 +178,45 @@
 
     <div class="container">
         <div class="right-section">
-            <h2>Pengiriman</h2>
+            <h2>Pemesanan</h2>
 
             <div class="faq-box">
                 <details class="faq-item">
-                    <summary class="faq-question">Berapa lama waktu yang dibutuhkan untuk melakukan 
-                    pengiriman pembelanjaan dari Mediora?</summary>
+                    <summary class="faq-question">Bagaimana cara memesan obat di Mediora?</summary>
                     <div class="faq-answer">
-                    Produk akan dikirim maksimal 2 jam setelah pembayaran sukses, sesuai jam operasional apotek (08.00-22.00 WIB). Untuk pesanan yang masuk di luar jam operasional, pengiriman akan dilakukan paling lambat 2 hari kerja (H+2) setelah pembayaran berhasil.
+                        Perhatikan langkah berikut:<br>
+                        1. Cari obat melalui kolom pencarian atau kategori<br>
+                        2. Mengklik masukan ke keranjang<br>
+                        3. Atur jumlah pesanan di keranjang belanja<br>
+                        4. Mengklik checkout untuk menyelesaikan pemesanan
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Kenapa pesanan yang dikirim dari apotek belum saya 
-                    terima setelah 1 x 24 jam?</summary>
+                    <summary class="faq-question">Mengapa daftar obat di keranjang tidak muncul?</summary>
                     <div class="faq-answer">
-                    Jika pesanan belum dikirim setelah 1 x 24 jam, Anda dapat menghubingin nomor telpon 072436281289 atau email melalui www.mediora.id atau Mediora@gmail.com
+                        Pastikan :<br>
+                        1. Anda sudah login ke akun masing-masing di website mediora<br>
+                        2. Mungkin tidak ada koneksi internet yang terganggu<br>
+                        3. Jika masih belum bisa atau masalah berlanjut hubungi via chat 072436281289 atau email mediora@gmail.com
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Apa yang harus saya lakukan jika setelah melakukan konfirmasi
-                    pesanan sudah diterima status pesanan masih belum selesai?</summary>
+                    <summary class="faq-question">Kenapa obat yang saya cari tidak muncul di hasil pencarian?</summary>
                     <div class="faq-answer">
-                    Jika konfirmasi pesanan diterima sudah dilakukan, tapi status pesanan belum selesai, Anda dapat menghubungi melalui Mediora@gmail.com
+                        Pastikan :<br>
+                        1. Anda sudah login ke akun masing-masing di website mediora<br>
+                        2. Mungkin tidak ada koneksi internet yang terganggu<br>
+                        3. Jika masih belum bisa atau masalah berlanjut hubungi via chat 072436281289 atau email mediora@gmail.com
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Apa yang dapat saya lakukan jika tidak bisa menghubungi
-                    nomor apotek?</summary>
+                    <summary class="faq-question">Mengapa tombol “+” untuk menambah jumlah pesanan obat menjadi non-aktif padahal sistem menampilkan stok masih tersedia?</summary>
                     <div class="faq-answer">
-                    Jika nomor apotek tidak dapat dihubungi, Anda dapat menghubungi  Melalui Mediora@gmail.com
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">Mengapa pesanan tidak bisa dikirimkan/alamat tidak
-                    ditemukan?</summary>
-                    <div class="faq-answer">
-                    Pesanan yang tidak bisa dikirimkan atau alamt tidak ditemukan dapat dikarenakan lokasi anda diluar jangkauan mediora. Anda dapat memberikan saran keepada kami untuk menjual produk di daerah Anda kepada admin melalui Admed@gmail.com
+                        • Tombol ‘+’ dinonaktifkan karena Mediora menerapkan batas pembelian untuk mencegah penimbunan, kepatuhan regulasi serta pertimbangan klinis. Dengan begitu sistem otomatis memvalidasi stok dan batas saat menambah jumlah.<br>
+                        • Jika butuh lebih konsultasikan via chat apoteker dengan lampiran resep dokter
                     </div>
                 </details>
             </div>

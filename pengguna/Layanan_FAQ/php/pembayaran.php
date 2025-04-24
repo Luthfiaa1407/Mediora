@@ -179,53 +179,31 @@
 
     <div class="container">
         <div class="right-section">
-            <h2>Pengiriman</h2>
+            <h2>Pembayaran</h2>
 
             <div class="faq-box">
                 <details class="faq-item">
-                    <summary class="faq-question">Berapa lama waktu yang dibutuhkan untuk melakukan 
-                    pengiriman pembelanjaan dari Mediora?</summary>
+                    <summary class="faq-question">Apa saja metode pembayaran yang diterima oleh mediora ?</summary>
                     <div class="faq-answer">
-                    Produk akan dikirim maksimal 2 jam setelah pembayaran sukses, sesuai jam operasional apotek (08.00-22.00 WIB). Untuk pesanan yang masuk di luar jam operasional, pengiriman akan dilakukan paling lambat 2 hari kerja (H+2) setelah pembayaran berhasil.
-                    </div>
+                        Mediora menyediakan pembayaran digital melalui e-wallet (OVO, Dana, LinkAja, ShopeePay, Gopay), transfer bank (BCA, BRI, BSI, BNI), dan verifikasi OTP, tanpa opsi COD atau kartu kredit, dengan semua transaksi harus diselesaikan secara digital sebelum pengiriman obat.                    </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Kenapa pesanan yang dikirim dari apotek belum saya 
-                    terima setelah 1 x 24 jam?</summary>
+                    <summary class="faq-question">Apakah saya bisa mengganti metode pembayaran 
+                    setelah memilih metode pembayaran ?</summary>
                     <div class="faq-answer">
-                    Jika pesanan belum dikirim setelah 1 x 24 jam, Anda dapat menghubingin nomor telpon 072436281289 atau email melalui www.mediora.id atau Mediora@gmail.com
-                    </div>
+                        Saat ini Anda dapat mengubah metode pembayaran sebelum menyelesaikan pembayaran. Namun jika pembayaran sudah dilakukan, metode tidak dapat diubah lagi - Anda perlu membuat pesanan baru dengan metode pembayaran yang diinginkan.                    </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Apa yang harus saya lakukan jika setelah melakukan konfirmasi
-                    pesanan sudah diterima status pesanan masih belum selesai?</summary>
+                    <summary class="faq-question">Bagaimana saya tahu jika pembayaran saya berhasil ? </summary>
                     <div class="faq-answer">
-                    Jika konfirmasi pesanan diterima sudah dilakukan, tapi status pesanan belum selesai, Anda dapat menghubungi melalui Mediora@gmail.com
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">Apa yang dapat saya lakukan jika tidak bisa menghubungi
-                    nomor apotek?</summary>
-                    <div class="faq-answer">
-                    Jika nomor apotek tidak dapat dihubungi, Anda dapat menghubungi  Melalui Mediora@gmail.com
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">Mengapa pesanan tidak bisa dikirimkan/alamat tidak
-                    ditemukan?</summary>
-                    <div class="faq-answer">
-                    Pesanan yang tidak bisa dikirimkan atau alamt tidak ditemukan dapat dikarenakan lokasi anda diluar jangkauan mediora. Anda dapat memberikan saran keepada kami untuk menjual produk di daerah Anda kepada admin melalui Admed@gmail.com
-                    </div>
+                        Setelah Anda menyelesaikan pembayaran, sistem akan menampilkan notifikasi 'Pembayaran Berhasil'. Apabila pembayaran gagal, sistem juga akan menampilkan pemberitahuan 'Pembayaran Gagal'.                    </div>
                 </details>
             </div>
 
             <h3>Pilih topik sesuai pertanyaan anda</h3>
 
-            <!-- Baris pertama -->
             <div class="topics">
                 <div class="topic-container">
                     <a href="faq.php">
@@ -253,7 +231,6 @@
                 </div>
             </div>
 
-            <!-- Baris kedua -->
             <div class="topics">
                 <div class="topic-container">
                     <a href="Pembayaran.php">

@@ -92,7 +92,6 @@
             user-select: none;
         }
 
-
         .faq-question::after {
             content: "";
             position: absolute;
@@ -179,46 +178,44 @@
 
     <div class="container">
         <div class="right-section">
-            <h2>Pengiriman</h2>
+            <h2>Retur</h2>
 
             <div class="faq-box">
                 <details class="faq-item">
-                    <summary class="faq-question">Berapa lama waktu yang dibutuhkan untuk melakukan 
-                    pengiriman pembelanjaan dari Mediora?</summary>
+                    <summary class="faq-question">Bagaimana cara mengajukan retur produk di mediora?</summary>
                     <div class="faq-answer">
-                    Produk akan dikirim maksimal 2 jam setelah pembayaran sukses, sesuai jam operasional apotek (08.00-22.00 WIB). Untuk pesanan yang masuk di luar jam operasional, pengiriman akan dilakukan paling lambat 2 hari kerja (H+2) setelah pembayaran berhasil.
+                        1. Login ke mediora menggunakan akun masing-masing, <br>
+                        2. lalu masuk ke halaman dashboard <br>
+                        3. Pilih menu ‘Pesanan’, <br>
+                        4. lalu pilih pesanan yang ingin di retur <br>
+                        5. Lalu klik ‘Ajukan Retur’ <br>
+                        6. Setelah itu ikuti instruksi yang muncul di halaman retur
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Kenapa pesanan yang dikirim dari apotek belum saya 
-                    terima setelah 1 x 24 jam?</summary>
+                    <summary class="faq-question">Mengapa daftar obat di keranjang tidak muncul?</summary>
                     <div class="faq-answer">
-                    Jika pesanan belum dikirim setelah 1 x 24 jam, Anda dapat menghubingin nomor telpon 072436281289 atau email melalui www.mediora.id atau Mediora@gmail.com
+                        Retur mungkin ditolak jika:<br>
+                        1. Produk sudah melewati batas waktu retur 1 x 24 jam setelah diterima<br>
+                        2. Kemasan obat sudah terbuka / tidak dalam kondisi original<br>
+                        3. Tidak Menyertakan bukti foto kerusakan/ketidaksesuaian
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Apa yang harus saya lakukan jika setelah melakukan konfirmasi
-                    pesanan sudah diterima status pesanan masih belum selesai?</summary>
+                    <summary class="faq-question">Apa yang harus saya lakukan jika retur ditolak?</summary>
                     <div class="faq-answer">
-                    Jika konfirmasi pesanan diterima sudah dilakukan, tapi status pesanan belum selesai, Anda dapat menghubungi melalui Mediora@gmail.com
+                        1. Periksa alasan penolakan pada notifikasi yang sudah dikirimkan.<br>
+                        2. Jika ada kesalahan data, dapat diajukan ulang dengan melampirkan bukti yang valid.<br>
+                        3. Hubungi tim Mediora via chat 072436281289 atau email Mediora@gmail.com untuk bantuan lebih lanjut
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Apa yang dapat saya lakukan jika tidak bisa menghubungi
-                    nomor apotek?</summary>
+                    <summary class="faq-question">Berapa lama proses validasi retur oleh pengelola?</summary>
                     <div class="faq-answer">
-                    Jika nomor apotek tidak dapat dihubungi, Anda dapat menghubungi  Melalui Mediora@gmail.com
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">Mengapa pesanan tidak bisa dikirimkan/alamat tidak
-                    ditemukan?</summary>
-                    <div class="faq-answer">
-                    Pesanan yang tidak bisa dikirimkan atau alamt tidak ditemukan dapat dikarenakan lokasi anda diluar jangkauan mediora. Anda dapat memberikan saran keepada kami untuk menjual produk di daerah Anda kepada admin melalui Admed@gmail.com
+                    Tim pengelola akan memverifikasi dalam 1 x 24 jam pada hari kerja. Jika disetujui Anda akan mendapatkan instruksi pengembalian produk.
                     </div>
                 </details>
             </div>
