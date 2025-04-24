@@ -1,36 +1,33 @@
-<?php
-// mediora_faq.php
-?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pertanyaan Umum - Mediora</title>
+    
     <style>
        header {
-    background-color: #9BD8DB;
-    padding: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    border-bottom: 2px solid #b6e3df;
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    z-index: 1000; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-}
+            background-color: #9BD8DB;
+            padding: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            border-bottom: 2px solid #b6e3df;
+            position: fixed; 
+            top: 0; 
+            left: 0;
+            width: 100%; 
+            z-index: 1000; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+        }
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg');
+    background-image: url('../image/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     margin: 0;
     padding: 0;
 }
@@ -70,7 +67,7 @@ body {
 
 
 .faq-box {
-    background-image: url('faq box.jpeg');
+    background-image: url('../image/faq box.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -182,8 +179,8 @@ details[open] .faq-question::after {
 </head>
 <body>
     <header>
-        <a href="#"><img src="panah.png" alt="panah"> Pertanyaan Umum</a>
-        <img src="logo.png" alt="logo">
+        <a href="#"><img src="../image/panah.png" alt="panah"> Pertanyaan Umum</a>
+        <img src="../image/logo.png" alt="logo">
     </header>
 
     <div class="container">
@@ -194,15 +191,25 @@ details[open] .faq-question::after {
     <details class="faq-item">
         <summary class="faq-question">Apa itu Mediora?</summary>
         <div class="faq-answer">
-            Mediora adalah platform layanan kesehatan online yang menyediakan berbagai produk kesehatan secara mudah dan terpercaya.
+        MEDIORA (Medicine Easy Delivery, Innovative Online Retail for All) adalah sistem informasi berbasis web yang dirancang untuk memudahkan masyarakat dalam memesan obat secara online dan mendapatkan pengiriman langsung ke alamat melalui jaringan apotek mitra di seluruh Lampung.
         </div>
     </details>
 
     <details class="faq-item">
         <summary class="faq-question">Bagaimana cara menggunakan website Mediora?</summary>
         <div class="faq-answer">
-            Anda dapat membuat akun terlebih dahulu, lalu memilih layanan atau produk yang diinginkan dan mengikuti petunjuk pemesanan.
-        </div>
+    Secara singkat cara menggunakan Mediora berikut:
+    <ol>
+        <li>Buat akun baru atau login dengan email/HP</li>
+        <li>Ketik nama obat di kolom pencarian atau pilih kategori</li>
+        <li>Klik “Pesan” lalu masukkan alamat</li>
+        <li>Checkout dengan memilih metode pembayaran</li>
+        <li>Pantau status pemesanan</li>
+        <li>Chat apoteker untuk bertanya obat tertentu</li>
+        <li>Berikan rating setelah obat diterima</li>
+    </ol>
+</div>
+
     </details>
 </div>
 
@@ -214,20 +221,22 @@ details[open] .faq-question::after {
 <div class="topics">
     <div class="topic-container">
         <div class="topic">
-            <img src="logo.png" alt="Website">
+            <img src="../image/logo.png" alt="Website">
         </div>
         <div class="topic-label">Website</div>
     </div>
     <div class="topic-container">
         <div class="topic">
-            <img src="keranjang.png" alt="Pemesanan">
+            <img src="../image/keranjang.png" alt="Pemesanan">
         </div>
         <div class="topic-label">Pemesanan</div>
     </div>
     <div class="topic-container">
-        <div class="topic">
-            <img src="pengiriman.png" alt="Pengiriman">
-        </div>
+        <a href="pengiriman.php">
+            <div class="topic">
+                <img src="../image/pengiriman.png" alt="Pengiriman">
+            </div>
+        </a>
         <div class="topic-label">Pengiriman</div>
     </div>
 </div>
@@ -236,13 +245,13 @@ details[open] .faq-question::after {
 <div class="topics">
     <div class="topic-container">
         <div class="topic">
-            <img src="pembayaran.png" alt="Pembayaran">
+            <img src="../image/pembayaran.png" alt="Pembayaran">
         </div>
         <div class="topic-label">Pembayaran</div>
     </div>
     <div class="topic-container">
         <div class="topic">
-            <img src="retur.png" alt="Retur">
+            <img src="../image/retur.png" alt="Retur">
         </div>
         <div class="topic-label">Retur</div>
     </div>
