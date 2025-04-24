@@ -156,7 +156,7 @@
         </div>
         <div class="notif-row">
             <span>Status Pengiriman</span>
-            <button onclick="alert('Status Pengiriman: Dalam perjalanan')">OPEN</button>
+            <a href="StatusPengiriman.php" class="open-button">OPEN</a>
         </div>
     </div>
 
