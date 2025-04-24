@@ -60,7 +60,7 @@
       <p class="italic text-[14px] text-[#838383]">Hai,</p>
       <h1 class="text-[21px] font-semibold">Mediora</h1>
       <button type="button" onclick="window.location.href='login.php'" class="italic text-[8px] text-[#284B63] rounded">Logout     |</button>
-      <button type="button" onclick="window.location.href='konten.php'" class="italic text-[8px] text-[#284B63] rounded">Edit Profile</button>
+      <button type="button" onclick="window.location.href='editprofile.php'" class="italic text-[8px] text-[#284B63] rounded">Edit Profile</button>
       </div>
     </div>
     <nav class="space-y-4 mt-4">
