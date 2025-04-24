@@ -40,6 +40,65 @@
       <button type="button" onclick="window.location.href='login.php'" class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">Logout</button>
     </nav>
   </aside>
+
+  <div class="flex-1 flex flex-col">
+
+  <header class="w-322 h-15 bg-[#9BD8DB] shadow-lg flex items-center gap-4 px-4 py-2">
+    <h1 class="px-12 py-3 text-[21px] font-semibold text-[#284B63]">Konten</h1>
+    <input placeholder="search..."
+        class="w-200 h-8 px-2  bg-white rounded-md shadow-lg"
+    >
+    <div class="flex items-center gap-2">
+    <div class="w-10 h-10">
+      <img src="./image/image 20.png" alt="logo" class="w-full h-full rounded-full object-cover">
+    </div>
+    <h1 class="text-[21px] font-semibold text-[#000000]">
+      Mediora
+    </h1>
+  </div>
+  </header>
+
+  <main class="bg-transparent py-4 px-6 mt-4">
+  <h1 class="text-xl font-semibold text-[#284B63]">Mengelola Konten</h1>
+  <p class="text-reguler text-[#979797] mb-6">Kelola semua isi konten web yang tersedia, jalankan operasi bila diperlukan</p>
+
+  <div class= "w-310 h-28 bg-[#F1F9FB] rounded-md shadow p-4 mt-6">
+    <h class="text-bold font-semibold text-[15px] text-[#284B63]">Filter</h>
+    <div class="flex items-start gap-4">
+    <div>
+        <label class="block text-sm font-medium text-gray-600 mb-2">PENCARIAN</label>
+            <input 
+               type="text" 
+                placeholder="Cari disini..." 
+                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+    </div>
+    <div>
+        <label class="block text-sm font-medium text-gray-600 mb-2">Tanggal</label>
+            <input 
+               type="text" 
+                placeholder="Cari disini..." 
+                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+    </div>
+    <div>
+        <label class="block text-sm font-medium text-gray-600 mb-2">Tanggal</label>
+            <input 
+               type="text" 
+                placeholder="Cari disini..." 
+                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+    </div>
+    <div>
+        <label class="block text-sm font-medium text-gray-600 mb-2">Status</label>
+            <input 
+               type="text" 
+                placeholder="Cari disini..." 
+                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+      </div>
+      <button type="button" onclick="window.location.href='dashboard.php'"  class="w-full bg-[#3C949E] text-white py-3 rounded-lg font-medium hover:bg-[#337c84] transition duration-200 mb-8">
+        TAMBAH BARU
+      </button>
+</main>
+</div>
+
 </div>
 </body>
 </html>

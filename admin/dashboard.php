@@ -55,8 +55,7 @@
     </h1>
   </div>
   </header>
-    </div>
-  </main>
+  
 </div>
 </body>
 </html>
