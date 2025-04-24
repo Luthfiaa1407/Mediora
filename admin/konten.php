@@ -70,11 +70,11 @@
             <input type="text" placeholder="Cari disini..." class="w-48 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
           </div>
           <div>
-            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Tanggal</label>
+            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Tanggal Awal</label>
             <input type="date" class="w-48 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
           </div>
           <div>
-            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Tanggal</label>
+            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Tanggal Akhir</label>
             <input type="date" class="w-48 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
           </div>
           <div>
@@ -86,7 +86,7 @@
             </select>
           </div>
           <div class="pt-2">
-            <button type="button" onclick="window.location.href='dashboard.php'" class="bg-[#024F55] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#337c84] transition duration-200">
+            <button type="button" onclick="tambahkonten()" class="bg-[#024F55] text-white text-[12px] px-4 py-2 rounded-lg font-medium hover:bg-[#337c84] transition duration-200">
               Tambah Baru
             </button>
           </div>
@@ -138,9 +138,9 @@
               </td>
             </tr>
           </tbody>
-
     </div>
   </div>
 </main>
+
 </body>
 </html>
