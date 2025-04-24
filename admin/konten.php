@@ -2,7 +2,7 @@
 <html lang="en">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard Admin</title>
+  <title>Manajemen Konten</title>
   <link rel="stylesheet" href="../src/output.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
@@ -93,9 +93,11 @@
                 placeholder="Cari disini..." 
                 class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
       </div>
+      <div class="flex">
       <button type="button" onclick="window.location.href='dashboard.php'"  class="w-full bg-[#3C949E] text-white py-3 rounded-lg font-medium hover:bg-[#337c84] transition duration-200 mb-8">
         TAMBAH BARU
       </button>
+      </div>
 </main>
 </div>
 
