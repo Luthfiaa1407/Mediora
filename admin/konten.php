@@ -62,45 +62,85 @@
   <h1 class="text-xl font-semibold text-[#284B63]">Mengelola Konten</h1>
   <p class="text-reguler text-[#979797] mb-6">Kelola semua isi konten web yang tersedia, jalankan operasi bila diperlukan</p>
 
-  <div class= "w-310 h-28 bg-[#F1F9FB] rounded-md shadow p-4 mt-6">
-    <h class="text-bold font-semibold text-[15px] text-[#284B63]">Filter</h>
-    <div class="flex items-start gap-4">
-    <div>
-        <label class="block text-sm font-medium text-gray-600 mb-2">PENCARIAN</label>
-            <input 
-               type="text" 
-                placeholder="Cari disini..." 
-                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
-    </div>
-    <div>
-        <label class="block text-sm font-medium text-gray-600 mb-2">Tanggal</label>
-            <input 
-               type="text" 
-                placeholder="Cari disini..." 
-                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
-    </div>
-    <div>
-        <label class="block text-sm font-medium text-gray-600 mb-2">Tanggal</label>
-            <input 
-               type="text" 
-                placeholder="Cari disini..." 
-                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
-    </div>
-    <div>
-        <label class="block text-sm font-medium text-gray-600 mb-2">Status</label>
-            <input 
-               type="text" 
-                placeholder="Cari disini..." 
-                class="w-50 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
-      </div>
-      <div class="flex">
-      <button type="button" onclick="window.location.href='dashboard.php'"  class="w-full bg-[#3C949E] text-white py-3 rounded-lg font-medium hover:bg-[#337c84] transition duration-200 mb-8">
-        TAMBAH BARU
-      </button>
-      </div>
-</main>
-</div>
+  <div class="w-full bg-[#F1F9FB] rounded-md shadow p-4 mt-6">
+        <h2 class="font-semibold text-[15px] text-[#284B63] mb-4">Filter</h2>
+        <div class="flex flex-wrap items-end gap-4">
+          <div>
+            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Pencarian</label>
+            <input type="text" placeholder="Cari disini..." class="w-48 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Tanggal</label>
+            <input type="date" class="w-48 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Tanggal</label>
+            <input type="date" class="w-48 h-8 border px-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-[#B3B3B3] mb-2">Status</label>
+            <select class="w-48 h-8 border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-2 focus:ring-[#9BD8DB] shadow-lg">
+              <option>---</option>
+              <option>Aktif</option>
+              <option>Non-Aktif</option>
+            </select>
+          </div>
+          <div class="pt-2">
+            <button type="button" onclick="window.location.href='dashboard.php'" class="bg-[#024F55] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#337c84] transition duration-200">
+              Tambah Baru
+            </button>
+          </div>
+        </div>
+  </div>
 
-</div>
+  <div class="mt-6 overflow-x-auto rounded-2xl">
+        <table class="w-full text-sm text-left text-gray-500">
+          <thead class="text-xs text-[#051F20] uppercase bg-[#3C949E]">
+            <tr>
+              <th scope="col" class="px-6 py-3">#</th>
+              <th scope="col" class="px-6 py-3">Nama Obat</th>
+              <th scope="col" class="px-6 py-3">Jenis Obat</th>
+              <th scope="col" class="px-6 py-3">Deskripsi</th>
+              <th scope="col" class="px-6 py-3">Kategori</th>
+              <th scope="col" class="px-6 py-3">Harga</th>
+              <th scope="col" class="px-6 py-3"></th>
+            </tr>
+          </thead>
+          <tbody class="text-xs text-[#555555] uppercase bg-[#F1F9FB]">
+          <tr>
+              <td class="px-8 py-6">1</td>
+              <td class="px-6 py-4">Pamol Sirup 60ml</td>
+              <td class="px-6 py-4">Swamedikasi</td>
+              <td class="px-6 py-4">Obat anak-anak penurun demam dan pereda nyeri seper...</td>
+              <td class="px-6 py-4">Obat Anak</td>
+              <td class="px-6 py-4">47.500,00</td>
+              <td class="px-6 py-4 flex gap-2">
+              </td>
+            </tr>
+            <tr>
+              <td class="px-8 py-6">2</td>
+              <td class="px-6 py-4">Grafadon</td>
+              <td class="px-6 py-4">Swamedikasi</td>
+              <td class="px-6 py-4">Grafadon obat penurun demam, sakit kepala, sakit gigi, dan nye...</td>
+              <td class="px-6 py-4">Demam & Flue</td>
+              <td class="px-6 py-4">4.550,00-</td>
+              <td class="px-6 py-4 flex gap-2">
+              </td>
+            </tr>
+            <tr>
+              <td class="px-8 py-6">3</td>
+              <td class="px-6 py-4">Cendo Hyalub</td>
+              <td class="px-6 py-4">Swamedikasi</td>
+              <td class="px-6 py-4">Obat tetes mata untuk terapi simtomatik mata kering</td>
+              <td class="px-6 py-4">Mata</td>
+              <td class="px-6 py-4">50.000,00</td>
+              <td class="px-6 py-4 flex gap-2">
+              </td>
+            </tr>
+          </tbody>
+
+    </div>
+  </div>
+</main>
 </body>
 </html>
