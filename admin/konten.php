@@ -31,32 +31,15 @@
       </div>
     </div>
     <nav class="space-y-4 mt-4">
-      <button class="block w-full text-left font-semibold text-white bg-[#3C949E] rounded px-4 py-2">Dashboard</button>
+      <button type="button" onclick="window.location.href='dashboard.php'" class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">Dashboard</button>
       <button class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">Pengelola</button>
       <button class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">Users</button>
       <button class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">Financial</button>
       <button class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">FAQ</button>
-      <button type="button" onclick="window.location.href='konten.php'" class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">Content</button>
+      <button class="block w-full text-left font-semibold text-white bg-[#3C949E] rounded px-4 py-2">Content</button>
       <button type="button" onclick="window.location.href='login.php'" class="block w-full text-left font-semibold text-[#284B63] px-4 py-2 hover:bg-[#9BD8DB] rounded">Logout</button>
     </nav>
   </aside>
-
-  <header class="w-356 h-15 bg-[#9BD8DB] shadow-lg flex items-center gap-4 px-4 py-2">
-    <h1 class="px-12 py-3 text-[21px] font-semibold text-[#284B63]">Dashboard</h1>
-    <input placeholder="search..."
-        class="w-200 h-8 px-2  bg-white rounded-md shadow-lg"
-    >
-    <div class="flex items-center gap-2">
-    <div class="w-10 h-10">
-      <img src="./image/image 20.png" alt="logo" class="w-full h-full rounded-full object-cover">
-    </div>
-    <h1 class="text-[21px] font-semibold text-[#000000]">
-      Mediora
-    </h1>
-  </div>
-  </header>
-    </div>
-  </main>
 </div>
 </body>
 </html>
