@@ -5,3 +5,8 @@
 ## 📚 Deskripsi Sistem
 
 Mediora menyediakan platform yang menghubungkan pelanggan dengan apotek secara langsung tanpa perlu datang ke lokasi fisik. Sistem ini memungkinkan pelanggan untuk:
+- Melakukan pencarian obat
+- Melihat detail obat (termasuk kandungan dan indikasi)
+- Melakukan pemesanan
+- Melakukan pembayaran secara online
+- Konsultasi dengan apoteker (premium)
