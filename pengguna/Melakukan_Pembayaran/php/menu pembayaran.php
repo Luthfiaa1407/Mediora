@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url('../image/background.jpg') no-repeat center center fixed;
+      background: url('../image/Bg full.png') no-repeat center center fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
@@ -15,11 +15,11 @@
 
     .checkout-container {
       max-width: 600px;
-      background-color: #f8fdfd;
+      background-color: rgba(255,255,255,0.48);
       margin: 50px auto;
       padding: 30px;
       border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.48);
     }
 
     .checkout-header {
@@ -27,17 +27,23 @@
       align-items: center;
       gap: 15px;
       margin-bottom: 20px;
+      justify-content: center;
     }
 
     .checkout-header img {
       height: 40px;
+      margin: 0;
     }
 
     .checkout-header-title {
       font-size: 22px;
       font-weight: bold;
-      color: #2a8a8d;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      width: fit-content;
+      margin: 0;
     }
+
 
     label {
       font-weight: bold;
@@ -59,36 +65,35 @@
     }
 
     .payment {
-      padding: 15px;
-      background-color: #ffffff;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 16px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      list-style: none;
-      text-align: left;
-      position: relative;
-      user-select: none;
-    }
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    list-style: none;
+    text-align: left;
+    position: relative; 
+    user-select: none; 
+}
 
     .payment::after {
-      content: "";
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      transform: translateY(-50%);
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-top: 8px solid #000;
-      transition: transform 0.3s ease;
+        content: "";
+        position: absolute;
+        right: 15px; 
+        top: 50%;
+        transform: translateY(-50%);
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #000; 
+        transition: transform 0.3s ease;
     }
 
     details[open] .payment::after {
-      transform: translateY(-50%) rotate(360deg);
-      border-top: none;
-      border-bottom: 8px solid #000;
+        transform: translateY(-50%) rotate(360deg);
+        border-top: none;
+        border-bottom: 8px solid #000;
     }
-
     .payment-option {
       display: flex;
       align-items: center;
@@ -131,11 +136,12 @@
 <body>
   <div class="checkout-container">
     <div class="checkout-header">
-      <img src="../image/logo.png" alt="Logo Mediora">
-      <div class="checkout-header-title">Mediora Checkout</div>
+      <img src="../image/logo.png" class="checkout-header-title" alt="Logo Mediora"> 
+      <div class="checkout-header-title">Checkout</div>
     </div>
 
     <label>Metode pembayaran apa yang ingin anda pakai?</label>
+    <p style="color: #2C6975;">Metode Pembayaran</p>
 
     <details>
       <summary class="payment">E-Wallet (OVO, Dana, ShopeePay, dll)</summary>
