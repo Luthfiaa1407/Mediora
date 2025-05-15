@@ -478,6 +478,104 @@
             color: var(--white);
         }
 
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 60px 0 20px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .footer-logo i {
+            margin-right: 10px;
+            color: var(--primary);
+        }
+        
+        .footer-about p {
+            opacity: 0.7;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        .footer-links h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        .footer-contact li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .footer-contact i {
+            color: var(--primary);
+            margin-top: 3px;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            opacity: 0.7;
+        
         .contact-item {
             display: flex;
             align-items: center;
@@ -583,8 +681,7 @@
     <header class="header">
         <div class="container header-container">
             <div class="brand">
-                <i class="fas fa-clover logo-icon"></i>
-                <span class="logo-text">MEDIORA</span>
+                <img src="./image/lg.png" alt="Logo Mediora" class="logo-icon" />
             </div>
             
             <nav class="nav-menu">
@@ -609,8 +706,7 @@
             <div class="left-panel">
                 <div class="branding">
                     <div class="logo">
-                        <i class="fas fa-clover logo-icon-large"></i>
-                        <span class="logo-text-large">MEDIORA</span>
+                        <img src="./image/lg.png" alt="Logo Mediora" class="logo-icon" />
                     </div>
                     
                     <h1 class="welcome-text">Selamat Datang</h1>
@@ -635,9 +731,9 @@
                     </div>
                     <div class="feature">
                         <div class="feature-icon">
-                            <i class="fas fa-user-md"></i>
+                            <i class="fas fa-clock"></i>
                         </div>
-                        <div>Konsultasi gratis dengan apoteker</div>
+                        <div>Praktis dan Hemat Waktu</div>
                     </div>
                 </div>
             </div>
@@ -646,18 +742,18 @@
             <div class="right-panel">
                 <form class="auth-form">
                     <div class="panel-header">
-                        <h2 class="panel-title">Login Akun</h2>
+                        <h2 class="panel-title">Masuk Akun</h2>
                         <p class="panel-subtitle">Masuk untuk mengakses layanan apotek online kami</p>
                     </div>
                     
                     <div class="tabs">
-                        <div class="tab active">Login</div>
-                        <div class="tab">Register</div>
+                        <div class="tab active">Masuk</div>
+                        <div class="tab">Daftar</div>
                     </div>
                     
                     <div class="form-group">
                         <label for="email" class="form-label">Email atau Nomor HP</label>
-                        <input type="email" id="email" class="form-input" placeholder="Masukkan email/nomor HP" required>
+                        <input type="text" id="email" class="form-input" placeholder="Masukkan email/nomor HP" required>
                     </div>
                     
                     <div class="form-group">
@@ -669,19 +765,13 @@
                         <a href="#" class="forgot-link">Lupa password?</a>
                     </div>
                     
-                    <button type="submit" class="login-btn">Masuk</button>
+                    <button type="submit" class="login-btn" onclick="window.location.href='landingpage2.php'" >Masuk</button>
                     
                     <div class="divider">atau masuk dengan</div>
                     
                     <div class="social-login">
                         <button type="button" class="social-btn google">
                             <i class="fab fa-google"></i>
-                        </button>
-                        <button type="button" class="social-btn facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </button>
-                        <button type="button" class="social-btn apple">
-                            <i class="fab fa-apple"></i>
                         </button>
                     </div>
                     
@@ -693,67 +783,59 @@
         </div>
     </main>
 
-    <!-- Footer Section -->
-    <footer class="footer">
+   <!-- Footer -->
+    <footer>
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-column">
-                    <h3>Tentang Mediora</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="#" class="footer-link">Tentang Kami</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Karir</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Blog</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Kebijakan Privasi</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Layanan</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="#" class="footer-link">Apotek Online</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Konsultasi Dokter</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Tes Kesehatan</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Program Kesehatan</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Bantuan</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="#" class="footer-link">Hubungi Kami</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">FAQ</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Cara Pemesanan</a></li>
-                        <li class="footer-item"><a href="#" class="footer-link">Pengembalian</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Hubungi Kami</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item contact-item">
-                            <i class="fas fa-phone-alt contact-icon"></i>
-                            <span>(021) 1234-5678</span>
-                        </li>
-                        <li class="footer-item contact-item">
-                            <i class="fas fa-envelope contact-icon"></i>
-                            <span>info@mediora.com</span>
-                        </li>
-                        <li class="footer-item contact-item">
-                            <i class="fas fa-map-marker-alt contact-icon"></i>
-                            <span>Bandar Lampung, Indonesia</span>
-                        </li>
-                    </ul>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="./image/lg.png" alt="Logo Mediora" class="logo-icon" />
+
                     </div>
+                    <p>Apotek Online Terpercaya di Indonesia. Menyediakan obat-obatan berkualitas dengan layanan terbaik untuk kesehatan keluarga Anda.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/mediora.id?igsh=MWRtejM2dmZ2N3N1Nw=="><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#">Konsultasi Apoteker</a></li>
+                        <li><a href="#">Pertanyaan Umum</a></li>
+                        <li><a href="#">Pemesanan</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Perusahaan</h3>
+                    <ul>
+                        <li><a href="#">Tentang Mediora</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Kontak Kami</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mediora.ofc@gmail.com</span>
+                        </li>
+                        <li>
+                             <i class="fas fa-clock"></i>
+                            <span>Buka setiap hari 07:00 - 21:00 WIB</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                &copy; 2025 Mediora. All Rights Reserved.
+                <p>&copy; <?php echo date('Y'); ?> Mediora. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
