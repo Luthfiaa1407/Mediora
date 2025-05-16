@@ -804,7 +804,6 @@
                 <div class="footer-links">
                     <h3>Layanan</h3>
                     <ul>
-                        <li><a href="#">Konsultasi Apoteker</a></li>
                         <li><a href="#">Pertanyaan Umum</a></li>
                         <li><a href="#">Pemesanan</a></li>
                     </ul>

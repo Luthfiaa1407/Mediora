@@ -1,6 +1,5 @@
 <?php
 // Mediora - Sistem Informasi Apotek Online
-// File: mediora_landing_alfagift_style.php
 ?>
 
 <!DOCTYPE html>
@@ -686,14 +685,16 @@
                 </div>
                 
                 <div class="nav-menu">
-                    <a href="#">Beranda</a>
+                    <a href="../Layanan_FAQ/php/faq.php">FAQ</a>
                     <a href="#">Produk</a>
                     <a href="#">Kategori</a>
                     <a href="#">Tentang Kami</a>
                 </div>
                 
                 <div class="nav-actions">
-                    <i class="fas fa-search"></i>
+                    <a href="../mencariproduk.php">
+                       <i class="fas fa-search"></i>
+                    </a>
                     <i class="fas fa-user"></i>
                     <div style="position: relative;">
                         <i class="fas fa-shopping-cart"></i>
@@ -709,14 +710,11 @@
         <div class="container">
             <div class="hero-container">
                 <div class="hero-content">
-                    <h1>Kesehatan Keluarga Dimulai dari Sini</h1>
+                    <h1>Kesehatan Anda Dimulai dari Sini</h1>
                     <p>Temukan obat, vitamin, dan produk kesehatan terbaik dengan harga terjangkau. Gratis ongkir untuk setiap pembelian.</p>
                     <div class="hero-buttons">
                         <a href="#" class="btn btn-primary">Belanja Sekarang</a>
                     </div>
-                </div>
-                <div class="hero-image">
-                    <img src="https://via.placeholder.com/600x500/F5F5F5/00B3B3?text=MEDIORA+APOTEK+ONLINE" alt="Mediora Apotek Online">
                 </div>
             </div>
         </div>
@@ -782,7 +780,7 @@
     <!-- Promo Banner -->
     <section class="container">
         <div class="promo-banner">
-            <h3>Mediora Konsultasi & Belanja Obat Online dengan Mudah</h3>
+            <h3>Mediora Belanja Obat Online dengan Mudah</h3>
         </div>
     </section>
 
@@ -878,8 +876,8 @@
                 <div class="footer-links">
                     <h3>Perusahaan</h3>
                     <ul>
-                        <li><a href="#">Tentang Kami</a></li>
-                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="../tentangkami.php">Tentang Kami</a></li>
+                        <li><a href="../kebijakanprivasi.php">Kebijakan Privasi</a></li>
                         <li><a href="#">Syarat & Ketentuan</a></li>
                     </ul>
                 </div>
@@ -887,7 +885,7 @@
                 <div class="footer-links">
                     <h3>Layanan</h3>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="../Layanan_FAQ/php/faq.php">FAQ</a></li>
                         <li><a href="mailto:mediora.ofc@gmail.com">Hubungi Kami</a></li>
                     </ul>
                 </div>
@@ -897,7 +895,7 @@
                     <ul>
                         <li>
                             <i class="fas fa-phone-alt"></i>
-                            <span>(0821) sisanya kapan-kapan</span>
+                            <span>(0821)70510988</span>
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
