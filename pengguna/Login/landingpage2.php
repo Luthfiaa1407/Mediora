@@ -888,7 +888,7 @@
                     <h3>Layanan</h3>
                     <ul>
                         <li><a href="#">Konsultasi Apoteker</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="../Layanan_FAQ/php/faq.php">FAQ</a></li>
                         <li><a href="mailto:mediora.ofc@gmail.com">Hubungi Kami</a></li>
                     </ul>
                 </div>
