@@ -173,7 +173,9 @@
 </head>
 <body>
     <header>
-        <a href="#"><img src="../image/panah.png" alt="panah"> Pertanyaan Umum</a>
+       <a href="../../Login/landingpage2.php">
+        <img src="../image/panah.png" alt="panah"> Pertanyaan Umum
+       </a>
         <img src="../image/logo.png" alt="logo">
     </header>
 
@@ -225,7 +227,6 @@
 
             <h3>Pilih topik sesuai pertanyaan anda</h3>
 
-            <!-- Baris pertama -->
             <div class="topics">
                 <div class="topic-container">
                     <a href="faq.php">
@@ -243,6 +244,10 @@
                         <div class="topic-label">Pemesanan</div>
                     </a>
                 </div>
+            </div>
+
+            <!-- Container baru khusus Pengiriman dan Pembayaran supaya sejajar -->
+            <div class="topics" style="justify-content: center; gap: 80px;">
                 <div class="topic-container">
                     <a href="pengiriman.php">
                         <div class="topic">
@@ -251,10 +256,6 @@
                         <div class="topic-label">Pengiriman</div>
                     </a>
                 </div>
-            </div>
-
-            <!-- Baris kedua -->
-            <div class="topics">
                 <div class="topic-container">
                     <a href="Pembayaran.php">
                         <div class="topic">
@@ -263,16 +264,6 @@
                         <div class="topic-label">Pembayaran</div>
                     </a>
                 </div>
-                <div class="topic-container">
-                    <a href="retur.php">
-                        <div class="topic">
-                            <img src="../image/retur.png" alt="Retur">
-                        </div>
-                        <div class="topic-label">Retur</div>
-                    </a>
-                </div>
             </div>
-        </div>
-    </div>
 </body>
 </html>
