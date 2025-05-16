@@ -8,5 +8,4 @@ Mediora menyediakan platform yang menghubungkan pelanggan dengan apotek secara l
 - Melakukan pencarian obat
 - Melihat detail obat (termasuk kandungan dan indikasi)
 - Melakukan pemesanan
-- Melakukan pembayaran secara online
-- Konsultasi dengan apoteker (premium)
+- Melakukan pembayaran secara onlin
